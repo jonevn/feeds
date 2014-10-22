@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory name="java:jboss/datasources/feeds">
+  <mapping class="se.evelonn.feeds.domain.Event"/>
+  <mapping class="se.evelonn.feeds.domain.AtomCategory"/>
+  <mapping class="se.evelonn.feeds.domain.AtomCommonAttributes"/>
+  <mapping class="se.evelonn.feeds.domain.AtomEntry"/>
+  <mapping class="se.evelonn.feeds.domain.AtomFeed"/>
+  <mapping class="se.evelonn.feeds.domain.AtomGenerator"/>
+  <mapping class="se.evelonn.feeds.domain.AtomLink"/>
+  <mapping class="se.evelonn.feeds.domain.AtomPerson"/>
+  <mapping class="se.evelonn.feeds.domain.AtomSource"/>
+ </session-factory>
+</hibernate-configuration>
